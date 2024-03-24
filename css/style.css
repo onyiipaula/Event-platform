@@ -107,6 +107,31 @@
 .buttons {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+  gap: 60px;
+ 
+}
+
+.buttons button {
+  display: grid;
+  border-radius: 10px 10px 10px;
+  grid-template-columns: 3fr 7fr ;
+}
+
+
+/* .buttons button img {
+  text-align: justify;
+} */
+
+.img-div {
+  height: 60px;
+  align-self: center;
+}
+
+.signin {
+  
+  /* justify-content: center; */
+  align-self: center;
 }
 
 /* .buttons div{
