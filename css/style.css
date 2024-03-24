@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.login-page {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login-img {
+  height: 100vh;
+}
+
+.form-div {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.form {
+  width: 100%;
+}
+
+.eventvet {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30.24px;
+  color: #ae8ec0;
+  padding: 15px 0px;
+  margin: 15px 0px;
+}
+
+.space,
+.sbtn {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.space {
+  height: 25px;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.16px;
+  margin-bottom: 20px;
+}
+
+.keeploggedin {
+  display: flex;
+  gap: 7px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.sbtn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.sbtn {
+  width: 80%;
+  background-color: #ae8ec0;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+}
+
+.create {
+  text-align: center;
+}
+
+.create a {
+  color: #f4bfa5;
+  margin-left: 5px;
+}
+
+.span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.line {
+  width: 50%;
+  margin-top: 12px;
+  border-top: 2px solid grey;
+}
+
+.or {
+  width: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .buttons div{
+  height: 60px;
+} */
+
+/* .login-img-div {
+  height: 100vh;
+} */
