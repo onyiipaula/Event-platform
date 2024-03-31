@@ -3,6 +3,93 @@
   margin: 0;
   overflow-x: hidden;
 }
+
+/* styling for the landing page */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-self: center;
+}
+
+.navigation {
+  align-self: center;
+}
+
+.item {
+  margin-top: 7px;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+}
+
+.login {
+  padding: 10px 15px;
+  box-shadow: 7px 7px 5px black;
+  border-radius: 7px;
+  border: 2px solid rgb(14, 14, 14);
+}
+
+.signup {
+  padding: 10px 15px;
+  background-color: #ec8d5f;
+  box-shadow: 7px 7px 5px black;
+  border-radius: 7px;
+  border: 2px solid rgb(14, 14, 14);
+}
+
+main .bg {
+  background-color: #ae8ec0;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 2fr;
+  align-items: center;
+  margin: 0 auto;
+  width: 89vw;
+  height: 85vh;
+}
+
+.text {
+  width: 70%;
+  margin: 100px;
+}
+
+.wiggly {
+  width: 100%;
+}
+
+.fourpack {
+  width: 60%;
+}
+
+.browse {
+  width: 79vw;
+  margin: 42px auto;
+  /* height: 75vh; */
+}
+
+.browse-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.browse-img {
+  width: 200px;
+}
+
+/* styling for the login and sign up page */
+
 .login-page {
   width: 90vw;
   margin: 0 auto;
@@ -109,15 +196,13 @@
   justify-content: space-between;
   margin-top: 30px;
   gap: 60px;
- 
 }
 
 .buttons button {
   display: grid;
   border-radius: 10px 10px 10px;
-  grid-template-columns: 3fr 7fr ;
+  grid-template-columns: 3fr 7fr;
 }
-
 
 /* .buttons button img {
   text-align: justify;
@@ -129,7 +214,6 @@
 }
 
 .signin {
-  
   /* justify-content: center; */
   align-self: center;
 }
