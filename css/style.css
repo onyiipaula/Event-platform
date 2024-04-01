@@ -52,16 +52,16 @@
 main .bg {
   background-color: #ae8ec0;
   display: grid;
-  grid-template-columns: 2fr 0.5fr 2fr;
+  grid-template-columns: 1.5fr 1.05fr 2fr;
   align-items: center;
   margin: 0 auto;
   width: 89vw;
   height: 85vh;
 }
 
-.text {
-  width: 70%;
-  margin: 100px;
+.shuffle, .text {
+  width: 90%;
+  margin-left: 30px;
 }
 
 .wiggly {
@@ -69,8 +69,26 @@ main .bg {
 }
 
 .fourpack {
-  width: 60%;
+  display: grid;
+  /* width: 400px; */
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
+
+.deco1{
+  align-self: flex-end;
+}
+
+.deco1, .toyin{
+  display: flex;
+  justify-self: right;
+}
+
+/* .deco1{
+  width:  ;
+} */
 
 .browse {
   width: 79vw;
@@ -78,14 +96,35 @@ main .bg {
   /* height: 75vh; */
 }
 
+.browse-text {
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+
 .browse-images {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .browse-img {
-  width: 200px;
+  width: 180px;
+}
+
+.category,
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.category {
+  font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
+  color: grey;
 }
 
 /* styling for the login and sign up page */
