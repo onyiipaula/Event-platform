@@ -296,7 +296,7 @@ main .bg {
 
 .buildteam {
   background-color: #C3DDB6;
-  width: 80%;
+  width: 90%;
   /* height: 100vh; */
   margin: 42px auto;
 }
@@ -403,3 +403,45 @@ main .bg {
     justify-content: space-between;
   }
 
+  .crs_wrapper {
+    /* background-color: #C3DDB6; */
+    width: 90%;
+    /* height: 100vh; */
+    margin: 42px auto;
+  }
+
+  .choiceevent-wrapper {
+    text-align: center;
+  }
+
+  .colortext {
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: #ae8ec0;
+  }
+
+  .mybudget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+
+  .GList {
+    margin-left: 50px;
+  }
+
+  .recently {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Albumevents-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+
+  .Testimonial-wrapper {
+    
+  }
