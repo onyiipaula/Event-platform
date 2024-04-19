@@ -478,6 +478,8 @@ main .bg {
 
   }
 
+  
+
   .forwardbackward {
     margin-right: 95px;
     justify-content: left;
@@ -487,8 +489,27 @@ main .bg {
     display: flex;
     color: #ffffffde;
     margin-left: 20px;
-    
+    /* width: 300px; */
+    padding: 20px;
+    border: 1px solid #ffffff; 
+    border-top: 5px solid #ffffff; 
+    border-right: 5px solid #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
   }
+
+  /* .card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ffffff; 
+    border-top: 5px solid #ffffff; 
+    border-right: 5px solid #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  } */
+
 
   .testimonierprofile {
     display: flex;
@@ -506,7 +527,16 @@ main .bg {
     margin: auto 5px;
     /* float: left; */
     position: absolute;
-    left: 90px;
+    left: 100px;
+    margin-bottom: 250px;
+  }
+
+  .profile2 {
+    margin: auto 5px;
+    /* float: left; */
+    position: absolute;
+    margin-top: 190px;
+    /* left: 100px; */
   
   
   }
@@ -533,8 +563,18 @@ main .bg {
 
 
   .NaImg {
-    /* margin-left: 15px; */
+    margin-left: 15px;
     /* margin-top: 20px; */
     position: absolute;
     left: 170px;
+    margin-right: 10px;
+  }
+
+  .NaImg1 {
+    margin-left: 655px;
+    margin-top: 230px;
+    position: absolute;
+    left: 70px;
+    margin-right: 250px;
+    margin-bottom: 400px;
   }
