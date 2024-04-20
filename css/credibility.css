@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.credibility {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  margin: 10px 0px 0px 5px;
+  gap: 20px;
+}
+
+.column {
+  width: 16vw;
+  height: 83vh;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  padding-left: 25px;
+}
+
+.column-features {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  /* padding: 2px 0px; */
+}
+
+.column-features-text {
+  font-size: 19px;
+}
+
+.credibility-scoring {
+  color: #ae8ec0;
+}
+
+.color-differ {
+  background-color: #f5eef9;
+}
+
+.main {
+  margin-top: 20px;
+  width: 76vw;
+}
+
+.search-dashboard {
+  display: flex;
+  justify-content: space-between;
+  /* height: 40px; */
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.dashboard-search {
+  border: 1px solid #e2d9d9;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+.dashboard-search button,
+.dashboard-search input {
+  border: none;
+  background-color: #fff;
+}
+
+.stay-in-touch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.velvet-marquee {
+  color: #ae8ec0;
+}
+
+.credibility-nav {
+  /* background-color: #333; */
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+  
+}
+
+.credibility-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.credibility-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.credibility-nav li {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 15px;
+  position: relative; /* Needed for arrow positioning */
+  margin-top: 15px;
+}
+
+.credibility-nav li a:hover {
+  background-color: #111;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative; /* Needed for positioning the content */
+  border: 1px solid #969596;
+  border-radius: 4px;
+}
+
+.dropdown span {
+  margin-right: 13px;
+  padding: 5px 15px;
+  cursor: pointer; /* Indicate interactivity on hover */
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: absolute;
+}
+
+.dropdown-content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown .fas {
+  /* Font Awesome icon for arrow (optional) */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%); /* Center the icon vertically */
+  font-size: 12px; /* Adjust font size as needed */
+  color: black;
+}
+
+.dropdown:hover .dropdown-content, /* Show dropdown on hover (optional) */
+.dropdown .show .dropdown-content {
+  /* Show dropdown on click or hover state */
+  display: inline-block;
+}
+
+/* Style for the "show" state */
+.dropdown .show .dropdown-content {
+  border: 1px solid #969596; /* Add a border on show */
+}
+
+.dropdown .show span {
+  /* Style the button on show */
+  font-weight: bold; /* Make the button text bolder */
+}
+
+/* .dropdown {
+  position: relative;
+  border: 1px solid #969596;
+  border-radius: 4px;
+}
+
+.dropdown span {
+  margin-right: 13px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+} */
+
+/* .dropdown .fas {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%); /* Center the icon vertically 
+  font-size: 12px; /* Adjust font size as needed 
+  color: black;
+} */
+
+/* .dropdown:click .dropdown-content {
+  /* Toggle on click 
+  display: block;
+} */
+
+/* .show {
+  /* Toggle on click 
+  display: block;
+} */
+
+/* .dropdown:click .fas {
+  /* Rotate arrow on click 
+  transform: translateY(-50%) rotate(180deg);
+} */
+
+.scorer-box {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.scorer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30vw;
+  gap: 10px;
+}
+
+.scorer-items {
+  border: 1px solid #e2d9d9;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.event-decorator {
+  color: #c3ddb6;
+  font-size: 11px;
+}
+.services-pricing {
+  color: #ec8d5f;
+  font-size: 11px;
+}
+
+.decorating-styles {
+  color: #86e3df;
+  font-size: 11px;
+}
+
+.scorer-items-title {
+  color: #292929;
+  font-size: 17px;
+}
+
+.credibility-images {
+  display: flex;
+}
+
+hr {
+  color: #292929;
+  margin-bottom: 20px;
+}

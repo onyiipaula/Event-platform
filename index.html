@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>EVENTVET homepage</title>
   </head>
@@ -13,10 +16,21 @@
     <header class="nav">
       <div><img class="logo" src="images/logo.svg" alt="" /></div>
       <nav class="navigation">
-        <ul>
+        <ul id="nav_itemss">
           <li class="item"><a href="index.html"></a>Home</li>
           <li class="item"><a href="pages/vendors.html">Vendors</a></li>
-          <li class="item"><a href="pages/tools.html">Planning Tools</a></li>
+          <li class="item dropdown">
+            <a href="#">Planning Tools</a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="pages/credibility.html">Credibility </a>
+              </li>
+              <li><a href="#">Budgeting</a></li>
+              <li>
+                <a href="#">Other</a>
+              </li>
+            </ul>
+          </li>
           <li class="item"><a href="pages/pricing.html">Pricing</a></li>
           <li>
             <a href="pages/login.html"><button class="login">Login</button></a>
@@ -123,8 +137,8 @@
       <div class="buildteam">
         <div class="TextAdvert">
           <h3 class="headfeature">
-            Find vendors for every vibe, <br>
-            <span class="purple fonts"> Let's</span> build your vendor<br>
+            Find vendors for every vibe, <br />
+            <span class="purple fonts"> Let's</span> build your vendor<br />
             <span class="center">team.</span>
           </h3>
         </div>
@@ -133,8 +147,8 @@
             <h3>photograghy</h3>
             <div class="photoimage-wrapper">
               <p>
-                 Capture your special moments with
-                 <br>our talented photographers.
+                Capture your special moments with
+                <br />our talented photographers.
               </p>
               <img src="./images/photography.svg" alt="A camera icon image" />
             </div>
@@ -144,9 +158,13 @@
             <div class="photoimage-wrapper">
               <p>
                 Indulge in delicious cuisine prepared by our
-                <br> expert caterers.
+                <br />
+                expert caterers.
               </p>
-              <img src="./images/catering.svg" alt="A hand holdingdish icon image" />
+              <img
+                src="./images/catering.svg"
+                alt="A hand holdingdish icon image"
+              />
             </div>
           </div>
           <div class="listedfeatures3">
@@ -154,9 +172,13 @@
             <div class="photoimage-wrapper">
               <p>
                 Experience unforgettable performances by
-                <br> our talented entertainers.
+                <br />
+                our talented entertainers.
               </p>
-              <img src="./images/entertainment.svg" alt="Music note icon image" />
+              <img
+                src="./images/entertainment.svg"
+                alt="Music note icon image"
+              />
             </div>
           </div>
         </div>
@@ -165,8 +187,8 @@
             <h3>photograghy</h3>
             <div class="photoimage-wrapper">
               <p>
-                 Capture your special moments with
-                 <br>our talented photographers.
+                Capture your special moments with
+                <br />our talented photographers.
               </p>
               <img src="./images/photography.svg" alt="A camera icon image" />
             </div>
@@ -176,9 +198,13 @@
             <div class="photoimage-wrapper">
               <p>
                 Indulge in delicious cuisine prepared by our
-                <br> expert caterers.
+                <br />
+                expert caterers.
               </p>
-              <img src="./images/catering.svg" alt="A hand holdingdish icon image" />
+              <img
+                src="./images/catering.svg"
+                alt="A hand holdingdish icon image"
+              />
             </div>
           </div>
           <div class="listedfeatures3">
@@ -186,21 +212,28 @@
             <div class="photoimage-wrapper">
               <p>
                 Experience unforgettable performances by
-                <br> our talented entertainers.
+                <br />
+                our talented entertainers.
               </p>
-              <img src="./images/entertainment.svg" alt="Music note icon image" />
+              <img
+                src="./images/entertainment.svg"
+                alt="Music note icon image"
+              />
             </div>
           </div>
         </div>
         <div class="featurelist3_wrapper">
-         
           <div class="listedfeatures2">
             <h3>Decorations</h3>
             <div class="photoimage-wrapper">
               <p>
-                Transform your event space<br> with stunning decorations.
+                Transform your event space<br />
+                with stunning decorations.
               </p>
-              <img src="./images/decor.svg" alt="A hand holdingdish icon image" />
+              <img
+                src="./images/decor.svg"
+                alt="A hand holdingdish icon image"
+              />
             </div>
           </div>
           <div class="listedfeatures3">
@@ -208,7 +241,8 @@
             <div class="photoimage-wrapper">
               <!-- <h3>Planning</h3> -->
               <p>
-                Get professional assistance in planning <br> your dream event.
+                Get professional assistance in planning <br />
+                your dream event.
               </p>
               <img src="./images/plan.svg" alt="Music note icon image" />
             </div>
@@ -216,15 +250,19 @@
         </div>
         <div class="view">
           <p>view all</p>
-          <img src="./images/rightarrow.svg" alt="Right Arrow icon image"/>
+          <img src="./images/rightarrow.svg" alt="Right Arrow icon image" />
         </div>
         <div class="getstarted">
           <div class="paragraph-button">
-            <h1> Need a place to <span class="purple fonts">start?</span></h1>
-            <p>Tired of looking through every single vendor of <br>
-            each service type? We will select a tailored<br>
-             package that best fits your interests.</p>
-             <a href="pages/signup.html"><button class="get-started">GET STARTED</button></a>
+            <h1>Need a place to <span class="purple fonts">start?</span></h1>
+            <p>
+              Tired of looking through every single vendor of <br />
+              each service type? We will select a tailored<br />
+              package that best fits your interests.
+            </p>
+            <a href="pages/signup.html"
+              ><button class="get-started">GET STARTED</button></a
+            >
           </div>
           <img src="./images/getStarted.svg" alt="Decorated Background image" />
         </div>
@@ -232,7 +270,7 @@
       <div class="crs_wrapper">
         <div class="choiceevent-wrapper">
           <div class="organise">
-            <h3>Everything you need to organize </h3>
+            <h3>Everything you need to organize</h3>
           </div>
           <div class="eventchoice-text">
             <h3><span class="colortext"> the event of your choice.</span></h3>
@@ -244,7 +282,9 @@
           <img src="./images/VCSS.svg" />
         </div>
         <div class="recently">
-          <h3>Recently added <span class="colortext">Album and events</span></h3>
+          <h3>
+            Recently added <span class="colortext">Album and events</span>
+          </h3>
         </div>
         <div class="Albumevents-wrapper">
           <div class="oo">
@@ -260,16 +300,19 @@
       </div>
       <div class="Testimonial-wrapper" id="grad">
         <div class="LtrustedArrow">
-          <h1 class="LTrusted">Loved & <br> trusted</h1>
+          <h1 class="LTrusted">
+            Loved & <br />
+            trusted
+          </h1>
           <div class="Arrows">
-            <img src="./images/backarrow.svg" class="arrows"/>
-            <img src="./images/forwardarrow.svg" class="arrows"/>
+            <img src="./images/backarrow.svg" class="arrows" />
+            <img src="./images/forwardarrow.svg" class="arrows" />
           </div>
         </div>
         <div class="forwardbackward">
           <!-- <img src="./images/backarrow.svg" />
           <img src="./images/forwardarrow.svg" /> -->
-<!-- >          <span class="text" ><p>"As an event planner, I rely on EventVet's Vendor <br>
+          <!-- >          <span class="text" ><p>"As an event planner, I rely on EventVet's Vendor <br>
             Credibility Scoring System 
            to ensure the quality <br>
             and reliability of vendors. 
@@ -277,23 +320,38 @@
            saves me time and stress!"</p></span -->
         </div>
         <div class="text-wrapper card">
-          <p>"As an event planner, I rely on EventVet's Vendor <br>
-             Credibility Scoring System 
-            to ensure the quality <br>
-             and reliability of vendors. 
-            It's a fantastic tool that <br> 
-            saves me time and stress!"</p>
+          <p>
+            "As an event planner, I rely on EventVet's Vendor <br />
+            Credibility Scoring System to ensure the quality <br />
+            and reliability of vendors. It's a fantastic tool that <br />
+            saves me time and stress!"
+          </p>
           <div class="testimonierprofile card1">
-            <img src="./images/SD.svg" class="profile1"/><span class="NaImg"> <h3 class="SD1">Sophia Davis</h3><br> <h3 class="SD2">Event planner</h3></span>
+            <img src="./images/SD.svg" class="profile1" /><span class="NaImg">
+              <h3 class="SD1">Sophia Davis</h3>
+              <br />
+              <h3 class="SD2">Event planner</h3></span
+            >
             <!-- <h3>Event planner</h3> -->
           </div>
           <div class="ImMAp card1">
-            <p>“I highly recommend EventVet to anyone who want to <br> 
-            plan event. The vendors credibility scoring is a <br> 
-            fantastic addition that sets this platform apart from <br>
-            others. It gives me peace of mind knowing that I can<br>
-             trust the vendors I choose. Great job, EventVet!"</p>
-            <img src="./images/MA.svg" width="90" height="150" class="profile2"/><span class="NaImg1"><h3 class="SD1">Michael Adedoja</h3><br> <h3 class="SD2">Marketing Director</h3></span>
+            <p>
+              “I highly recommend EventVet to anyone who want to <br />
+              plan event. The vendors credibility scoring is a <br />
+              fantastic addition that sets this platform apart from <br />
+              others. It gives me peace of mind knowing that I can<br />
+              trust the vendors I choose. Great job, EventVet!"
+            </p>
+            <img
+              src="./images/MA.svg"
+              width="90"
+              height="150"
+              class="profile2"
+            /><span class="NaImg1"
+              ><h3 class="SD1">Michael Adedoja</h3>
+              <br />
+              <h3 class="SD2">Marketing Director</h3></span
+            >
           </div>
           <img src="./images/test3.svg" />
         </div>
@@ -306,45 +364,57 @@
         <div class="become">
           <div class="register">
             <h2>Want to become a vendor?</h2>
-            <img src="./images/vendorReg.svg"  width="350" height="250" class="creative">
+            <img
+              src="./images/vendorReg.svg"
+              width="350"
+              height="250"
+              class="creative"
+            />
             <!-- <p>Sign up on The Eventvet to reach more clients and book more events</p>
             <button class="Reg">Register</button> -->
           </div>
           <div class="Parabutt">
-            <p>Sign up on The Eventvet to reach more clients and book more events</p>
+            <p>
+              Sign up on The Eventvet to reach more clients and book more events
+            </p>
             <button class="Reg">Register</button>
           </div>
           <!-- <img src="./images/vendorRegblack.svg"> -->
-         
         </div>
       </div>
       <div class="EE">
         <div class="explore">
           <div class="eventbtns">
-             <h1>Experience <br> Eventvet</h1>
+            <h1>
+              Experience <br />
+              Eventvet
+            </h1>
             <button class="btns">explore</button>
           </div>
-         
+
           <div>
-            <img src="./images/EEvet.svg">
-            <img src="./images/EEvet2.svg">
-            <img src="./images/EEvet3.svg">
-            <img src="./images/EEvethalf.svg">
+            <img src="./images/EEvet.svg" />
+            <img src="./images/EEvet2.svg" />
+            <img src="./images/EEvet3.svg" />
+            <img src="./images/EEvethalf.svg" />
           </div>
           <div>
-            <img src="./images/2EEvet.svg">
-            <img src="./images/2EEvet2.svg">
-            <img src="./images/2EEvet3.svg">
-            <img src="./images/2EEvet4.svg">
+            <img src="./images/2EEvet.svg" />
+            <img src="./images/2EEvet2.svg" />
+            <img src="./images/2EEvet3.svg" />
+            <img src="./images/2EEvet4.svg" />
           </div>
         </div>
       </div>
       <footer>
         <div class="footer-container">
           <div class="footer-logo">
-            <img src="./images/logo.svg">
-            <p>Get started with Event <br>  planning</p>
-         </div>
+            <img src="./images/logo.svg" />
+            <p>
+              Get started with Event <br />
+              planning
+            </p>
+          </div>
           <ul class="footer-column">
             <h2>Plan your Event</h2>
             <li><a href="#">Venues and vendors</a></li>
@@ -363,7 +433,12 @@
           </ul>
           <ul class="footer-column">
             <h2>Contact</h2>
-            <li><img src="./images/message.svg"><a href="mailto:support@Eventvet.com">support@Eventvet.com</a></li>
+            <li>
+              <img src="./images/message.svg" /><a
+                href="mailto:support@Eventvet.com"
+                >support@Eventvet.com</a
+              >
+            </li>
             <li><a href="#">Social Media</a></li>
           </ul>
         </div>

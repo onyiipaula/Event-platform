@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/credibility.css" />
+    <script
+      src="https://kit.fontawesome.com/acc40c9880.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>credibility Page</title>
+  </head>
+  <body>
+    <div class="credibility">
+      <div class="column">
+        <div class="column-features">
+          <div><img src="../images/logo.svg" alt="Logo" srcset="" /></div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/yourevent.svg" alt="icons" /></div>
+          <div class="column-features-text">Your Event</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/venues.svg" alt="icons" /></div>
+          <div class="column-features-text">Venues</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/vendors.svg" alt="icons" /></div>
+          <div class="column-features-text">Vendors</div>
+        </div>
+        <div class="column-features color-differ">
+          <div><img src="../images/credibility.svg" alt="icons" /></div>
+          <div class="column-features-text credibility-scoring">credibility Scoring</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/guest.svg" alt="icons" /></div>
+          <div class="column-features-text">Guest list</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/budgeting.svg" alt="icons" /></div>
+          <div class="column-features-text">Budgeting tools</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/help.svg" alt="icons" /></div>
+          <div class="column-features-text">Help</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/settings.svg" alt="icons" /></div>
+          <div class="column-features-text">Settings</div>
+        </div>
+        <div class="column-features">
+          <div><img src="../images/logout.svg" alt="icons" /></div>
+          <div class="column-features-text">Log out</div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="search-dashboard">
+          <div><h2>15 Event decorators in Abuja</h2></div>
+          <div class="stay-in-touch">
+            <div>
+              <form action="" class="dashboard-search">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Search Dashboad"
+                /><button><img src="../images/search.svg" alt="" ></button>
+              </form>
+            </div>
+            <div><img src="../images/notification.svg" alt="Noti" srcset="" /></div>
+            <div><img src="../images/comment.svg" alt="Comm" srcset="" /></div>
+          </div>
+        </div>
+        <h5 class="velvet-marquee">Blue velvet marquee, decor</h5>
+        <div class="credibility-nav">
+          <ul>
+            <li class="dropdown">
+              <div><img src="../images/category.svg" alt="" /></div>
+              <span>Category</span><i class="fas fa-angle-down"></i>
+              <ul class="dropdown-content">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <span>Years of Experience</span> <i class="fas fa-angle-down"></i>
+              <ul class="dropdown-content">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <span>Location</span> <i class="fas fa-angle-down"></i>
+              <ul class="dropdown-content">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <span>Completed Portfolio</span> <i class="fas fa-angle-down"></i>
+              <ul class="dropdown-content">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <span>Quality Score</span> <i class="fas fa-angle-down"></i>
+              <ul class="dropdown-content">
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="scorer-box">
+          <div><img src="../images/score.svg" alt="Score" srcset="" /></div>
+          <div class="scorer">
+            <div class="scorer-items">
+              <div class="scorer-items-title">Event decorator</div>
+              <div class="event-decorator">
+                Based in Abuja | Serves other near-by states for additional fee
+              </div>
+            </div>
+            <div class="scorer-items">
+              <div class="scorer-items-title">Services Pricing</div>
+              <div class="services-pricing">
+                Maximum spend <br />
+                $3,500
+              </div>
+            </div>
+            <div class="scorer-items">
+              <div class="scorer-items-title">Style</div>
+              <div>10 Decorating styles</div>
+            </div>
+            <div class="scorer-items">
+              <div class="scorer-items-title">Quick responder</div>
+              <div><img src="" alt="icons" /></div>
+            </div>
+          </div>
+        </div>
+        <h3>Portfolio</h3>
+        <hr />
+        <div class="credibility-../images">
+          <div><img src="../images/okoye.svg" alt="Pictures!" srcset="" /></div>
+          <div><img src="../images/trad.svg" alt="Pictures!" srcset="" /></div>
+          <div><img src="../images/aman.svg" alt="Pictures!" srcset="" /></div>
+          <div><img src="../images/baby.svg" alt="Pictures!" srcset="" /></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const dropdownElements = document.querySelectorAll('.dropdown');
+
+      dropdownElements.forEach(dropdown => {
+        const dropdownButton = dropdown.querySelector('fas');
+        const dropdownContent = dropdown.querySelector('.dropdown-content');
+
+        dropdownButton.addEventListener('click', () => {
+          dropdownContent.classList.toggle('show'); // Toggle the 'show' class
+        });
+      });
+    </script>
+  </body>
+</html>
