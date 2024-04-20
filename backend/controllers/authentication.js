@@ -13,7 +13,7 @@ const register = async (req, res) =>{
                 erors: errors.array()
             })
         }
-        const {email, password, confirmPassword} = req.body;
+        const {fullname,email, password, confirmPassword} = req.body;
         //check if passwords match
         if (password !== confirmPassword){
             res.status(400).json({message: 'passwords do not match'});
@@ -22,8 +22,8 @@ const register = async (req, res) =>{
         const hashedPassword = await
         bcrypt.hash(password, 10);
 
-        const newUserQuery = 'INSERT INTO Users (email, password) VALUES(?, ?)';
-        await pool.query(newUserQuery, [email, hashedPassword]);
+        const newUserQuery = 'INSERT INTO Users (fullname, email, password) VALUES(?, ?,?)';
+        await pool.query(newUserQuery, [fullname, email, hashedPassword]);
 
         //Redirect to landing page after sucessful registration
         res.redirect('/landing');c
