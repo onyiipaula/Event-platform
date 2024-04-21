@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to EventVet');
 });
 
-app.use('/', landingRoutes);
+
 app.use('/api/auth', authRoutes);
 app.use('/vendor', vendorRoutes)
 

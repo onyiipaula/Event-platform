@@ -38,6 +38,9 @@ router.post('/vendors/register',[
     body('portfolio_link').notEmpty(),
 ], vendorController.registerVendor)
 
+//vendor information
+router.post('/vendors/info', vendorController.submitVendorInfo)
+
 // Create a new vendor
 router.post('/vendors', [
     body('name').notEmpty(),

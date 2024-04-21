@@ -20,6 +20,22 @@ const registerVendor = async(req, res) =>{
     }
 };
 
+//submit vendor information
+
+const submitVendorInfo = async (req, res)=>{
+    try{
+        const {yearsofExperirnce, location, portfolio}  = req.body;
+
+        `INSERT INTO Vendors(years_of_experience, location, portfolio) VALUES (?,?,?)`;
+        await db.query(newVendorQuery
+        [yearsOfExperirnce, location, portfolio]),
+        res.ststus(201).json({message: 'submitted successfully'})
+} catch (error) {
+    console.error('error submitting form', error);
+    res.status(500).json({message: 'internal server error'})
+};
+};
+
 // Create a new vendor
 const createVendor = (req, res) => {
     const { name, category, description, contact, website, portfolio_link } = req.body;
@@ -104,6 +120,7 @@ const deleteVendorById = (req, res) => {
 
 module.exports = {
     registerVendor,
+    submitVendorInfo,
     createVendor,
     getAllVendors,
     getVendorById,
