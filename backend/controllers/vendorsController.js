@@ -1,5 +1,24 @@
 const mysql = require('mysql2');
 const db = require('../config/db');
+const pool = require('../config/db');
+
+//register vendor
+const registerVendor = async(req, res) =>{
+    try{
+        const {name, category, description, contact, website, portfolioLink,} = req.body;
+
+        const  newVendorQuery = `
+        INSERT INTO Vendors (name, category, description, contact, website, portfolio_Link)
+        VALUES(?,?,?,?,?,?)`;
+        await
+        pool.query(newVendorQuery,[name, category, description, contact, website, portfolioLink]);
+
+        res.status(201).json({message: 'vendor registered successfully'});
+    } catch(error){
+        console.error('Error registering vendor:', error);
+        res.status(500).json({message:'Internal Server Error'});
+    }
+};
 
 // Create a new vendor
 const createVendor = (req, res) => {
@@ -84,6 +103,7 @@ const deleteVendorById = (req, res) => {
 };
 
 module.exports = {
+    registerVendor,
     createVendor,
     getAllVendors,
     getVendorById,

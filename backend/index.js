@@ -35,6 +35,7 @@ app.get('/', (req, res) => {
 
 app.use('/', landingRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/vendor', vendorRoutes)
 
 const PORT = process.env.PORT || 9000;
 
