@@ -32,6 +32,15 @@ const Vendor = sequelize.define('Vendor', {
   website: {
     type: DataTypes.STRING
   },
+  years_of_experience:{
+    type: DataTypes.INTEGER
+  },
+  location:{
+    type: DataTypes.STRING
+  },
+  portfolio:{
+    type: DataTypes.STRING
+  },
   portfolio_link: {
     type: DataTypes.STRING
   },
